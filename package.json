@@ -1,0 +1,19 @@
+{
+  "name": "todo_list",
+  "version": "1.0.0",
+  "description": "todo list",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon server.js"
+  },
+  "author": "Gabriel Luciano",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.3",
+    "moment": "^2.21.0",
+    "mysql": "^2.15.0"
+  }
+}
